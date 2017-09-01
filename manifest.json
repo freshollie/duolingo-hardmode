@@ -3,7 +3,7 @@
 
   "name": "Dulingo hardmode",
   "description": "Duoligo hardmode will hide all sentences which are spoken on duolingo",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "icons": { 
     "16": "assets/icon.png",
@@ -11,7 +11,7 @@
     "128": "assets/icon.png" 
   },
 
-  "permissions": ["background", "tabs", "*://*.duolingo.com/*"],
+  "permissions": ["background", "storage", "tabs", "*://*.duolingo.com/*"],
   "content_scripts": [
     {
       "matches": ["*://*.duolingo.com/*"],
